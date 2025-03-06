@@ -1,0 +1,19 @@
+@model BookHub.Models.Books
+
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<h2>@ViewData["Title"]</h2> <br>
+<div>
+    <h3>@Model.Title</h3>
+    <p><strong>Author: </strong>@Model.Author</p>
+    <p><strong>Genre: </strong>@Model.Genre</p>
+    <p><strong>Description: </strong>@Model.Description</p>
+</div>
+
+<!-- Link to navigate back to the Books page -->
+<br>
+<p>
+    <h5><a asp-action="Books">&#8592; Back to Books Page</a></h5>
+</p>
