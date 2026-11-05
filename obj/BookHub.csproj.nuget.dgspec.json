@@ -1,36 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rcd44\\OneDrive\\Desktop\\Code\\CSharp\\BookHub\\BookHub\\BookHub.csproj": {}
+    "C:\\Users\\rcd44\\Desktop\\Current\\Code\\CSharp\\BookHub\\BookHub\\BookHub.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rcd44\\OneDrive\\Desktop\\Code\\CSharp\\BookHub\\BookHub\\BookHub.csproj": {
+    "C:\\Users\\rcd44\\Desktop\\Current\\Code\\CSharp\\BookHub\\BookHub\\BookHub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcd44\\OneDrive\\Desktop\\Code\\CSharp\\BookHub\\BookHub\\BookHub.csproj",
+        "projectUniqueName": "C:\\Users\\rcd44\\Desktop\\Current\\Code\\CSharp\\BookHub\\BookHub\\BookHub.csproj",
         "projectName": "BookHub",
-        "projectPath": "C:\\Users\\rcd44\\OneDrive\\Desktop\\Code\\CSharp\\BookHub\\BookHub\\BookHub.csproj",
+        "projectPath": "C:\\Users\\rcd44\\Desktop\\Current\\Code\\CSharp\\BookHub\\BookHub\\BookHub.csproj",
         "packagesPath": "C:\\Users\\rcd44\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcd44\\OneDrive\\Desktop\\Code\\CSharp\\BookHub\\BookHub\\obj\\",
+        "outputPath": "C:\\Users\\rcd44\\Desktop\\Current\\Code\\CSharp\\BookHub\\BookHub\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rcd44\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\rcd44\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {}
           }
@@ -45,10 +39,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "Bogus": {
@@ -85,6 +80,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.19, 9.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[9.0.19, 9.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.19, 9.0.19]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.19, 9.0.19]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -93,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
