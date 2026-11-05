@@ -6,6 +6,8 @@ using BookHub.Data;
 
 namespace BookHub.Controllers;
 
+//updated BookHub Project for 2026
+
 public class HomeController : Controller
 {
     private readonly ApplicationDbContext _context;
