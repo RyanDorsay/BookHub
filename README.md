@@ -15,3 +15,33 @@ Project layout
 
 5) BookHub.Tests - test project
 
+
+## Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+```bash
+git clone <repository-url>
+```
+
+### 2. Navigate to the Project Directory
+```bash
+cd <repository-folder>
+```
+
+### 3. Restore Project Dependencies
+```bash
+dotnet restore
+```
+
+### 4. Build the Project
+```bash
+dotnet build
+```
+
+### 5. Run the Application
+```bash
+dotnet run
+```
+
