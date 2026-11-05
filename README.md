@@ -18,16 +18,16 @@ Project layout
 
 ## Getting Started
 
-Follow these steps to run the project locally:
+Follow these steps to download and run BookHub locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/RyanDorsay/BookHub.git
 ```
 
 ### 2. Navigate to the Project Directory
 ```bash
-cd <repository-folder>
+cd BookHub
 ```
 
 ### 3. Restore Project Dependencies
@@ -44,4 +44,3 @@ dotnet build
 ```bash
 dotnet run
 ```
-
